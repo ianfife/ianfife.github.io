@@ -100,3 +100,14 @@ footer {
     text-decoration: none;
     color: gray;
 }
+
+#footer-text:hover {
+    color: #a1a1a1;
+    transition: color 0.15s ease-in-out;
+}
+
+@media only screen and (max-width: 1150px) {
+    .project-container {
+        width: 90%;
+    }
+}
