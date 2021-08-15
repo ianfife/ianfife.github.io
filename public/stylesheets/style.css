@@ -110,4 +110,8 @@ footer {
     .project-container {
         width: 90%;
     }
+
+    hr {
+        max-width: 200px;
+    }
 }
