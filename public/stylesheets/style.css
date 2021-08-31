@@ -77,7 +77,7 @@ hr {
     padding: 15px 0;
 }
 
-#project-name h1{
+#project-name h1 {
     font-size: 30px;
     margin: 0
 }
@@ -86,6 +86,12 @@ hr {
     padding: 10px 0;
     font-weight: bolder;
     text-transform: uppercase;
+}
+
+#project-links i {
+    padding-top: 10px;
+    text-decoration: none;
+    color: white;
 }
 
 footer {
