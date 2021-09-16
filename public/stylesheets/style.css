@@ -11,7 +11,7 @@ body {
 
 #content-wrap {
     flex: 1;
-    transition: background-color 0.15s ease-in-out;
+    transition: background-color 0.25s ease-in-out;
 }
 
 #intro {
@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: color 0.15s ease-in-out;
+    transition: color 0.25s ease-in-out;
 }
 
 #picture {
@@ -52,7 +52,7 @@ hr {
 #icons i {
     text-decoration: none;
     color: black;
-    transition: color 0.15s ease-in-out;
+    transition: color 0.25s ease-in-out;
 }
 
 #portfolio {
@@ -118,7 +118,7 @@ footer {
     align-items: center;
     padding: 20px 0;
     color: gray;
-    transition: background-color 0.15s ease-in-out;
+    transition: background-color 0.25s ease-in-out;
 }
 
 #footer-text {
