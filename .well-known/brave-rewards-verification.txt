@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: ianfife.github.io
+Token: 3d9f1f787e07330c993f0cf6745367568a0a2c5905ae7f987005afbd36a9ca81

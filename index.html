@@ -12,7 +12,7 @@
     <body>
         <div id="content-wrap">
             <div id="intro">
-                <div id="picture"><img src="public/assets/photo.JPEG" height="150" width="150" alt="Ian Fife"></div>
+                <div id="picture"><img src="public/assets/photo-min.JPEG" height="150" width="150" alt="Ian Fife"></div>
                 <div id="bio">
                     <div id="name">Ian Fife</div>
                     <div id="work">Software Developer</div>
@@ -28,7 +28,7 @@
             <hr>
 
             <div id="portfolio">
-                <div class="project-container">
+                <div class="project-container" style="background-color: #007aff;">
                     <div id="project-image">
                         <img src="public/assets/LifeScoreLogo.png" height="50" width="50" alt="Life Score Logo">
                     </div>
@@ -42,18 +42,76 @@
                         <div id="project-description">
                             An iOS app that helps to boost productivity and build or break habits by giving you a "life score" based upon how you handle tasks.
                         </div>
-                        <div id="project-links">
-                            <a target="_blank" href="https://lifescorehabits.com"><i class="fas fa-link"></i></a>
+                        <div id="project-footer">
+                            <div id="project-links">
+                                <a target="_blank" href="https://lifescorehabits.com"><i class="fas fa-link"></i></a>
+                            </div>
+                            <div id="project-version">
+                                v1.1.0
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-container" style="background-color: #4cbb17;">
+                    <div id="project-image">
+                        <img src="public/assets/SlimesAndSawbladesLogo.png" height="50" width="50" alt="Slimes & Sawblades Logo">
+                    </div>
+                    <div id="project-info">
+                        <div id="project-name">
+                            <h1>Slimes and Sawblades</h1>
+                        </div>
+                        <div id="project-langs">
+                            GDScript
+                        </div>
+                        <div id="project-description">
+                            A simple puzzle game created in the Godot Engine for the Wowie Jam 3.0. I contributed to this project as a part of Amber Studios. Supports Windows, MacOS, and Linux.
+                        </div>
+                        <div id="project-footer">
+                            <div id="project-links">
+                                <a target="_blank" href="https://amberstudios.itch.io/slimes-and-sawblades"><i class="fas fa-link"></i></a>
+                            </div>
+                            <div id="project-version">
+                                v1.1.0
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-container" style="background-color: #5B3B8C;">
+                    <div id="project-image">
+                        <img src="public/assets/OSWarsJudgeBotLogo.png" height="50" width="50" alt="Slimes & Sawblades Logo">
+                    </div>
+                    <div id="project-info">
+                        <div id="project-name">
+                            <h1>OS Wars Judge Bot</h1>
+                        </div>
+                        <div id="project-langs">
+                            Node.JS + Discord.JS
+                        </div>
+                        <div id="project-description">
+                            A Discord bot created initally by <a href="https://github.com/lisa-wolfgang">lisa_wolfgang</a> which I helped with further development. Can be used to judge competitions with teams and criteria.
+                        </div>
+                        <div id="project-footer">
+                            <div id="project-links">
+                                <a target="_blank" href="https://github.com/ianfife/OSWarsJudgeBot"><i class="fab fa-github-square"></i></a>
+                            </div>
+                            <div id="project-version">
+                                v2.0.2
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <footer>
+        <footer id="footer">
             <a id="footer-text" href="mailto:iandfife@gmail.com">Contact me</a>
             |
             <a id="footer-text" href="/blog">Blog</a>
+            |
+            <i class="fas fa-moon" id="footer-button-light"></i>
+            <i class="far fa-moon" id="footer-button-dark" style="display: none"></i>
         </footer>
+
+        <script src="public/javascript/index.js"></script>
     </body>
 </html>
