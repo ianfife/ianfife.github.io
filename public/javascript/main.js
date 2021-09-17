@@ -2,8 +2,9 @@ var darkMode = document.getElementById("footer-button-dark");
 var lightMode = document.getElementById("footer-button-light");
 var icons = document.getElementById("icons");
 var lightTheme = true;
+var theme = window.localStorage.getItem('theme');
 
-darkMode.onclick = function(e) {
+function setLightMode() {
     document.getElementById("content-wrap").style.cssText = 'background-color: white';
     footer.style.cssText = 'background-color: white';
     intro.style.cssText = 'color: black';
@@ -11,11 +12,12 @@ darkMode.onclick = function(e) {
     for (i = 0, len = elements.length; i < len; i++) {
         elements[i].style.color = 'black';
     }
-    darkMode.style.cssText = 'display: none';
-    lightMode.style.cssText = 'display: block';
+    lightMode.style.cssText = 'display: none';
+    darkMode.style.cssText = 'display: block';
+    window.localStorage.setItem('theme', 'light');
 }
 
-lightMode.onclick = function(e) {
+function setDarkMode() {
     document.getElementById("content-wrap").style.cssText = 'background-color: black';
     footer.style.cssText = 'background-color: black';
     intro.style.cssText = 'color: white';
@@ -23,6 +25,18 @@ lightMode.onclick = function(e) {
     for (i = 0, len = elements.length; i < len; i++) {
         elements[i].style.color = 'white';
     }
-    lightMode.style.cssText = 'display: none';
-    darkMode.style.cssText = 'display: block';
+    lightMode.style.cssText = 'display: block';
+    darkMode.style.cssText = 'display: none';
+    window.localStorage.setItem('theme', 'dark');
 }
+
+function init() {
+    if (theme == 'dark') {
+        setDarkMode();
+    }
+    else {
+        setLightMode();
+    }
+}
+
+init();

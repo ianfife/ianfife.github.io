@@ -132,13 +132,15 @@ footer {
     transition: color 0.15s ease-in-out;
 }
 
-#footer-button-dark, #footer-button-light {
-    margin: 0 10px;
-    text-decoration: none;
+#footer button {
     color: gray;
+    padding: 0;
+    margin: 0 10px;
+    border: none;
+    background: none;
 }
 
-#footer-button-dark:hover, #footer-button-light:hover {
+#footer button:hover, #footer button:hover {
     color: #a1a1a1;
     transition: color 0.15s ease-in-out;
     cursor: pointer;

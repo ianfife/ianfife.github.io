@@ -44,7 +44,7 @@
                         </div>
                         <div id="project-footer">
                             <div id="project-links">
-                                <a target="_blank" href="https://lifescorehabits.com"><i class="fas fa-link"></i></a>
+                                <a target="_blank" rel="noreferrer" href="https://lifescorehabits.com"><i class="fas fa-link"></i></a>
                             </div>
                             <div id="project-version">
                                 v1.1.0
@@ -68,7 +68,7 @@
                         </div>
                         <div id="project-footer">
                             <div id="project-links">
-                                <a target="_blank" href="https://amberstudios.itch.io/slimes-and-sawblades"><i class="fas fa-link"></i></a>
+                                <a target="_blank" rel="noreferrer" href="https://amberstudios.itch.io/slimes-and-sawblades"><i class="fas fa-link"></i></a>
                             </div>
                             <div id="project-version">
                                 v1.1.0
@@ -92,7 +92,7 @@
                         </div>
                         <div id="project-footer">
                             <div id="project-links">
-                                <a target="_blank" href="https://github.com/ianfife/OSWarsJudgeBot"><i class="fab fa-github-square"></i></a>
+                                <a target="_blank" rel="noreferrer" href="https://github.com/ianfife/OSWarsJudgeBot"><i class="fab fa-github-square"></i></a>
                             </div>
                             <div id="project-version">
                                 v2.0.2
@@ -108,8 +108,8 @@
             |
             <a id="footer-text" href="/blog">Blog</a>
             |
-            <i class="fas fa-moon" id="footer-button-light"></i>
-            <i class="far fa-moon" id="footer-button-dark" style="display: none"></i>
+            <button onclick="setDarkMode()" id="footer-button-dark" style="display: block"><i class="fas fa-moon"></i></button>
+            <button onclick="setLightMode()" id="footer-button-light" style="display: none"><i class="far fa-moon"></i></button>
         </footer>
 
         <script src="public/javascript/index.js"></script>
