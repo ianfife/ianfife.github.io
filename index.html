@@ -110,13 +110,13 @@
             |
             <a id="footer-text" href="/blog">Blog</a>
             |
-            <button onclick="setDarkMode(['content-wrap'], ['intro'], ['icons'])" id="footer-button-dark" style="display: block"><i class="fas fa-moon"></i></button>
-            <button onclick="setLightMode(['content-wrap'], ['intro'], ['icons'])" id="footer-button-light" style="display: none"><i class="far fa-moon"></i></button>
+            <button onclick="setDarkMode(['content-wrap', 'footer'], ['intro'], ['icons'])" id="footer-button-dark" style="display: block"><i class="fas fa-moon"></i></button>
+            <button onclick="setLightMode(['content-wrap', 'footer'], ['intro'], ['icons'])" id="footer-button-light" style="display: none"><i class="far fa-moon"></i></button>
         </footer>
 
         <script src="public/javascript/theme.js"></script>
         <script>
-            init(['content-wrap'], ['intro'], ['icons'])
+            init(['content-wrap', 'footer'], ['intro'], ['icons'])
         </script>
     </body>
 </html>
