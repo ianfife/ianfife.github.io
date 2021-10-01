@@ -16,10 +16,32 @@
                     <div id="title">3D Models/CAD</div>
                 </div>
                 <div id="category">
-                    <div id="title">Code Snippets</div>
-                    <div id="work">
-                        <img src="" width="100" height="100" alt="Code Example">
-                        <div id="work-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                    <div id="title">Code</div>
+                    <div id="works">
+                        <div id="work">
+                            <div id="work-content">
+                                <div id="work-top">
+                                    <div id="work-title">theme-js</div>
+                                    <div id="work-lang">JAVASCRIPT</div>
+                                </div>
+                                <div id="work-caption">A small framework used to support dark mode on any basic website.</div>
+                            </div>
+                            <div id="work-link">
+                                <a target="_blank" rel="noreferrer" href="https://github.com/ianfife/theme-js"><i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div id="work">
+                            <div id="work-content">
+                                <div id="work-top">
+                                    <div id="work-title">Derivative Calculator</div>
+                                    <div id="work-lang">JAVA</div>
+                                </div>
+                                <div id="work-caption">A derivative calculator inspired by my AP Calculus class.</div>
+                            </div>
+                            <div id="work-link">
+                                <a target="_blank" rel="noreferrer" href="https://github.com/ianfife/derivative-calculator"><i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div id="category">
@@ -35,13 +57,13 @@
             |
             <a id="footer-text" href="/blog">Blog</a>
             |
-            <button onclick="setDarkMode(['content-wrap', 'footer'], ['categories'])" id="footer-button-dark" style="display: block"><i class="fas fa-moon"></i></button>
-            <button onclick="setLightMode(['content-wrap', 'footer'], ['categories'])" id="footer-button-light" style="display: none"><i class="far fa-moon"></i></button>
+            <button onclick="setDarkMode(['content-wrap', 'footer'], ['categories'], ['works'])" id="footer-button-dark" style="display: block"><i class="fas fa-moon"></i></button>
+            <button onclick="setLightMode(['content-wrap', 'footer'], ['categories'], ['works'])" id="footer-button-light" style="display: none"><i class="far fa-moon"></i></button>
         </footer>
 
         <script src="public/javascript/theme.js"></script>
         <script>
-            init(['content-wrap', 'footer'], ['categories'])
+            init(['content-wrap', 'footer'], ['categories'], ['works'])
         </script>
     </body>
 </html>
