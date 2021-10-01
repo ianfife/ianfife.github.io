@@ -30,7 +30,6 @@ body {
     border-color: teal;
     background-color: rgba(0,139,139, 0.1);
     height: 400px;
-    z-index: 1000;
 }
 
 #title {
@@ -42,8 +41,6 @@ body {
 
 #works {
     height: 368px;
-    position: relative;
-    z-index: 0;
     overflow-y: auto;
 }
 
