@@ -11,6 +11,9 @@
 
     <body>
         <div id="content-wrap">
+            <div id="header">
+                <div id="title">Blog</div>
+            </div>
         </div>
 
         <footer id="footer">
@@ -20,13 +23,13 @@
             |
             <a id="footer-text" href="/works">Works</a>
             |
-            <button onclick="setDarkMode(['content-wrap', 'footer'])" id="footer-button-dark" style="display: block"><i class="fas fa-moon"></i></button>
-            <button onclick="setLightMode(['content-wrap', 'footer'])" id="footer-button-light" style="display: none"><i class="far fa-moon"></i></button>
+            <button onclick="setDarkMode(['content-wrap', 'footer'], ['title'])" id="footer-button-dark" style="display: block"><i class="fas fa-moon"></i></button>
+            <button onclick="setLightMode(['content-wrap', 'footer'], ['title'])" id="footer-button-light" style="display: none"><i class="far fa-moon"></i></button>
         </footer>
         
         <script src="public/javascript/theme.js"></script>
         <script>
-            init(['content-wrap', 'footer'])
+            init(['content-wrap', 'footer'], ['title'])
         </script>
     </body>
 </html>

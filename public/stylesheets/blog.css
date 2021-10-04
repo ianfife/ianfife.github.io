@@ -14,6 +14,18 @@ body {
     transition: background-color 0.25s ease-in-out;
 }
 
+#header {
+    display: flex;
+    justify-content: center;
+    transition: color 0.25s ease-in-out;
+}
+
+#title {
+    font-size: 42px;
+    font-weight: bold;
+    padding: 20px;
+}
+
 footer {
     display: flex;
     justify-content: center;

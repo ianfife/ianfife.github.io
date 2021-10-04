@@ -14,10 +14,24 @@
             <div id="categories">
                 <div id="category">
                     <div id="title">3D Models/CAD</div>
+                    <div id="works">
+                        <div id="work">
+                            <div id="work-content">
+                                <div id="work-top">
+                                    <div id="work-title">Microphone iPhone Tripod Adapter</div>
+                                    <div id="work-lang">Autodesk Fusion 360</div>
+                                </div>
+                                <div id="work-caption">A small adapter I designed for an Microphone holder to be used as an iPhone 11 Pro Max (customizable if you change dimensions) tripod.</div>
+                            </div>
+                            <div id="work-link">
+                                <a href="public/assets/TripodiPhoneAdapter.stl"><i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div id="category">
                     <div id="title">Code</div>
-                    <div id="works">
+                    <div id="works-code">
                         <div id="work">
                             <div id="work-content">
                                 <div id="work-top">
@@ -57,13 +71,13 @@
             |
             <a id="footer-text" href="/blog">Blog</a>
             |
-            <button onclick="setDarkMode(['content-wrap', 'footer'], ['categories'], ['works'])" id="footer-button-dark" style="display: block"><i class="fas fa-moon"></i></button>
-            <button onclick="setLightMode(['content-wrap', 'footer'], ['categories'], ['works'])" id="footer-button-light" style="display: none"><i class="far fa-moon"></i></button>
+            <button onclick="setDarkMode(['content-wrap', 'footer'], ['categories'], ['works', 'works-code'])" id="footer-button-dark" style="display: block"><i class="fas fa-moon"></i></button>
+            <button onclick="setLightMode(['content-wrap', 'footer'], ['categories'], ['works', 'works-code'])" id="footer-button-light" style="display: none"><i class="far fa-moon"></i></button>
         </footer>
 
         <script src="public/javascript/theme.js"></script>
         <script>
-            init(['content-wrap', 'footer'], ['categories'], ['works'])
+            init(['content-wrap', 'footer'], ['categories'], ['works', 'works-code'])
         </script>
     </body>
 </html>
